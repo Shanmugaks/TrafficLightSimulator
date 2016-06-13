@@ -8,7 +8,7 @@ Traffic Light simulator is web based simple traffic lights control simualtion at
 External Dependencies:
   - Jquery
   - QUnit for UNit testing
-  - 
+
 ### Screen shots:
 
 <img src="./screenshots/trafficLightsOutput.png" width="200">
