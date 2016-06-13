@@ -21,19 +21,8 @@ External Dependencies:
 * To run Unit testing, open TestResult.html (/test directory) in any browser.
 
 ### Folder structure:
+<img src="./screenshots/Folderstructure.png" width="700">
 
-```sh
---Root
---------index.html
---------src
-          ----- TrafficLightSimulator.js
-          ----- TrafficLightSimulator.css
---------test
-          ----- TestResults.html
-          ----- TrafficLightSimulatorTest.js
---------screenshots
---------docs
-```
 ----- Document ends here ------
 
 
