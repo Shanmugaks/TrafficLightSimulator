@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Traffic Light Simulator</title>
+    
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" href="./src//TrafficLightSimulator.css" type="text/css">
+    <script type="text/javascript" src="./src/TrafficLightSimulator.js"></script>
+   
+
+  
+
+        </head>
+<body>
+    <h2>
+        Traffic Light Simulator
+    </h2>
+    Yellow light duration: (ms)<br>
+    <input type="text" id="YellowDuration" value="1000"/><br>
+    Lights switching duration: (ms)<br>
+    <input type="text" id="SwitchingDuration" value="5000"/><br>
+    Total Demo duration: (ms)<br>
+    <input type="text" id="TotalDuration" value="20000"/><br>
+    <input type="button" id="Start_Simulation" value="Start Simulation" /><br />
+    <label id="ValidationResult"/><br />
+    
+  
+   
+    <div id="North" class="TrafficLightPanel">
+        <p id="RedLight" class="ON"></p>
+        <p id="YellowLight"></p>
+        <p id="GreenLight"></p>
+    </div>
+    <div id="South" class="TrafficLightPanel">
+        <p id="RedLight" class="ON"></p>
+        <p id="YellowLight"></p>
+        <p id="GreenLight"></p>
+    </div>
+    <div id="West" class="TrafficLightPanel">
+        <p id="RedLight" class="ON"></p>
+        <p id="YellowLight"></p>
+        <p id="GreenLight"></p>
+    </div>
+    <div id="East" class="TrafficLightPanel">
+        <p id="RedLight" class="ON"></p>
+        <p id="YellowLight"></p>
+        <p id="GreenLight"></p>
+    </div>
+</body>
+    </html>
