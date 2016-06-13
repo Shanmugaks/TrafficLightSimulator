@@ -8,8 +8,9 @@ Traffic Light simulator is web based simple traffic lights control simualtion at
 External Dependencies:
   - Jquery
   - QUnit for UNit testing
+  - 
+### Screen shots:
 
-### Version
 <img src="./screenshots/trafficLightsOutput.png" width="200">
 <img src="./screenshots/UNitTestResults.png" width="600">
 
@@ -18,9 +19,8 @@ External Dependencies:
 
 * To see output, open index.html (located in root directory) in any browser.
 * To run Unit testing, open TestResult.html (/test directory) in any browser.
-### Folder structure
 
-
+### Folder structure:
 
 ```sh
 --Root
