@@ -1,0 +1,55 @@
+﻿body
+{
+  margin:20px;
+}
+#North
+{
+    position: absolute;
+    left: 120px;
+    top: 220px;
+}
+
+#South
+{
+    position: absolute;
+    left: 120px;
+    top: 570px;
+}
+
+#West
+{
+    position: absolute;
+    left: 20px;
+    top: 390px;
+}
+
+#East
+{
+    position: absolute;
+    left: 220px;
+    top: 390px;
+}
+
+.TrafficLightPanel {
+  background-color: #7E7C7C;
+  height: 130px;
+  width: 40px;
+  border-radius: 10px;
+  float: left;
+  margin: 30px 0;
+  padding: 5px;
+     
+}
+
+.TrafficLightPanel p {
+  background-color: #000000;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin: 10px auto;
+  transition: background 500ms; 
+}
+
+#RedLight.ON    { background-color: #E53C12; }
+#YellowLight.ON { background-color: #F2F262; }
+#GreenLight.ON  { background-color: #27C446; }
