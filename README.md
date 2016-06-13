@@ -10,13 +10,16 @@ External Dependencies:
   - QUnit for UNit testing
 
 ### Version
-1.0.0
+<img src="./screenshots/trafficLightsOutput.png" width="200">
+<img src="./screenshots/UNitTestResults.png" width="600">
+
 
 ### Steps to run application & Unit testing
 
 * To see output, open index.html (located in root directory) in any browser.
 * To run Unit testing, open TestResult.html (/test directory) in any browser.
 ### Folder structure
+
 
 
 ```sh
