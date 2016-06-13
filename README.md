@@ -1,6 +1,6 @@
 # Traffic Light Simulator
 
-Traffic Light simulator is web based simple traffic lights control simualtion of four way intersection.
+Traffic Light simulator is web based simple traffic lights control simualtion at four way intersection.
 
   - code developed using HTML, CSS, Javascript and JQuery.
   - Unit test code developed using QUnit test framework.
