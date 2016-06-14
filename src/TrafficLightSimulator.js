@@ -101,6 +101,7 @@ function ShowDemo() {
 
 function EndDemo() {
     clearInterval(TimerIntervalID);
+    document.getElementById("Start_Simulation").disabled = false;
 }
 
 function ShowValidationError() {
